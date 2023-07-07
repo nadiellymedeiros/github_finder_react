@@ -10,20 +10,19 @@
   flex: 1 0 50%;
 }
 
-.like {
-  width: 100%;
+.repoTitle {
   display: flex;
-  justify-content: flex-end;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.like button {
+.repoTitle button {
   width: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   border-radius: 5px;
-  gap: 0.5rem;
   background-color: #4ed8c7;
 }
 

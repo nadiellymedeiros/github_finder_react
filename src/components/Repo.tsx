@@ -21,12 +21,14 @@ const Repo = ({
 
   return (
     <div className={classes.repo}>
-      <div className={classes.like}>
+      <div className={classes.repoTitle}>
+        <h3>{name}</h3>
         <button onClick={() => toggleLike(id)}>
           {isLiked ? "Descurtir" : "Curtir"}
         </button>
       </div>
-      <h3>{name}</h3>
+      <div className={classes.like}></div>
+
       <p>
         <BsCodeSlash /> {language}
       </p>

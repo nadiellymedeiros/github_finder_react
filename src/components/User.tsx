@@ -33,7 +33,7 @@ export default function User({
           <p className={style.number}>{following}</p>
         </div>
       </div>
-      <Link to={`/repos/${login}`}>Ver melhores projetos</Link>
+      <Link to={`/repos/${login}`}>Ver projetos</Link>
     </div>
   );
 }
