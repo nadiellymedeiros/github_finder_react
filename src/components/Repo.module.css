@@ -10,6 +10,23 @@
   flex: 1 0 50%;
 }
 
+.like {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.like button {
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  gap: 0.5rem;
+  background-color: #4ed8c7;
+}
+
 .stats {
   display: flex;
   gap: 1rem;

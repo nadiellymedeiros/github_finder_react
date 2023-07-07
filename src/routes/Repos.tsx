@@ -30,7 +30,7 @@ const Repos = () => {
         (a: RepoProps, b: RepoProps) => b.stargazers_count - a.stargazers_count
       );
 
-      orderedRepos = orderedRepos.slice(0, 5);
+      // orderedRepos = orderedRepos.slice(0, 5);
 
       setRepos(orderedRepos);
     };
