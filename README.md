@@ -2,6 +2,8 @@
 
 <p align="center">Projeto de Busca de usuários do github em aplicação web utilizando HTMl, CSS, JS, React, Vite.</p>
 
+<p align="center">deploy:https://splendid-pithivier-04cb62.netlify.app/ </p>
+
 
 
 # Sumário
